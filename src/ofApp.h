@@ -30,7 +30,7 @@ private:
 	aruco::Dictionary dictionary;
 
 	int dictionarySize{ 32 };
-	int markerResolution{ 5 };
+	int markerResolution{ 6 };
 	int tau;
 
 	int state{ 0 };

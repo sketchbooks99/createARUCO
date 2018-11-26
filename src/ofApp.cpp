@@ -234,7 +234,7 @@ void ofApp::createMarker(unsigned int dictSize, unsigned int n) {
 	}
 
 	D.tau0 = tau;
-	D.toFile("data/marker.xml");
+	D.toFile("data/marker6x6.xml");
 
 	dictionary = D;
 }
@@ -278,6 +278,6 @@ void ofApp::createMarkerImages(aruco::Dictionary & dictionary) {
 		fbo.readToPixels(p);
 		ofImage img;
 		img.setFromPixels(p);
-		img.save("marker/marker_" + ofToString(i) + ".png");
+		img.save("marker6x6/marker_" + ofToString(i) + ".png");
 	}
 }
